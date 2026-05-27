@@ -89,4 +89,4 @@ Matriz cruzada de rendimientos que expone la inflación implícita del mercado (
 3.  **Robustez y Mantenibilidad:** Migrar de planillas de cálculo propensas a errores a un backend en Python aumentó la fiabilidad a nivel institucional.
 
 ---
-📫 **Contacto:** [Tu Email / Tu LinkedIn]
+📫 **Contacto:** [alan_yapaze2015@outlook.com.ar / (https://www.linkedin.com/in/alan-yapaze/]
