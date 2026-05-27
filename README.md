@@ -1,5 +1,3 @@
-<div align="center">
-
 # 📈 Alpha Fixed Income: Quantitative Pricing & Arbitrage Engine
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg?style=for-the-badge&logo=python&logoColor=white)]()
@@ -32,11 +30,9 @@ El proyecto fue construido bajo estándares de ingeniería de software para esca
 *   **Quantitative Models:** Pricers construidos desde cero con `NumPy` y `Pandas` para valuación de la curva entera de instrumentos argentinos.
 *   **Interfaz de Usuario (UI):** Dashboard interactivo de grado institucional desarrollado en **Streamlit**.
 *   **Infraestructura:** Todo el entorno está contenerizado utilizando **Docker** y orquestado con `docker-compose`.
-
+*   **Ultima Actualización:** Las imagenes adjuntadas aqui son correspondientes al cierre del 27/05/2026.
 <div align="center">
   
-> *(Sugerencia: 🖼️ **[AQUÍ INSERTA UNA IMAGEN O DIAGRAMA SIMPLE DE TU ARQUITECTURA]**)*
-
 </div>
 
 ---
@@ -47,31 +43,35 @@ El sistema está segmentado en módulos especializados que abarcan todo el espec
 
 ### 1. Tasas en Pesos (Lecaps / Boncap)
 El motor interpola las tasas del mercado en tiempo real, construye la curva cupón cero de pesos y proyecta retornos efectivos. 
-> 🖼️ **[INSERTA AQUÍ UN GIF O CAPTURA DEL DASHBOARD DE TASA FIJA]**
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/59fe1983-fc6a-4252-8264-4812a0f1a020" />
 
 ### 2. Instrumentos CER (Ajustados por Inflación)
 Modelado de flujos de caja reales proyectando los datos del REM (Relevamiento de Expectativas de Mercado), calculando TIRs reales y paridades con altísima precisión.
-> 🖼️ **[INSERTA AQUÍ UNA CAPTURA DEL MÓDULO CER]**
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/5d5ce6f3-826e-434a-bd17-fd9aed672647" />
 
 ### 3. Curva Dollar Linked
 Análisis de instrumentos atados al tipo de cambio oficial, estructurando la devaluación esperada e integrando los retornos sintéticos.
-> 🖼️ **[INSERTA AQUÍ UNA CAPTURA DEL MÓDULO DOLLAR LINKED]**
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/304fd816-27a6-487a-b891-346c0ed6a3a3" />
+<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/6bb5fee9-ce61-4263-b3a9-17f255c6c40d" />
+<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/ec349bf3-8a55-47f5-b954-2d9277713454" />
 
 ### 4. Banda Alta de los Dólares
 Visualización y proyecciones de tipos de cambio financieros (CCL, MEP) y futuros de ROFEX, permitiendo identificar el costo de cobertura y las tasas implícitas.
-> 🖼️ **[INSERTA AQUÍ UNA CAPTURA DEL MÓDULO DE BANDA ALTA]**
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/382c5f93-03a5-4e11-83e0-2ba39436a6de" />
 
 ### 5. Bonos Soberanos Hard Dollar
 Curva de rendimientos de los bonos Ley Local y Ley Extranjera (ALs / GDs). Análisis de paridades, sensibilidades y yields contra el riesgo país.
-> 🖼️ **[INSERTA AQUÍ UNA CAPTURA DEL MÓDULO SOBERANOS USD]**
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/42ad5b6f-0bc3-48c7-93f9-89472a26328d" />
+<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/a71dd1bf-2cc3-46b3-b4e4-6236d228447b" />
 
 ### 6. Obligaciones Negociables (Corporativos)
 Monitoreo del universo de deuda corporativa, evaluando el spread de crédito de las empresas argentinas contra la curva soberana.
-> 🖼️ **[INSERTA AQUÍ UNA CAPTURA DEL MÓDULO CORPORATIVOS]**
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/841b72ab-cff3-49ff-9cbb-0faa73501eb6" />
+<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/5b5b4f35-b580-4b08-9fd9-0f22dc22770e" />
 
 ### 7. Inflation Breakeven (Detección de Arbitraje)
 Matriz cruzada de rendimientos que expone la inflación implícita del mercado (Breakeven Inflation) al comparar la curva nominal (Pesos) vs la curva real (CER). Expone de manera visual y automatizada los desarbitrajes y oportunidades de entrada.
-> 🖼️ **[INSERTA AQUÍ UNA CAPTURA DEL INFLATION BREAKEVEN]**
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/0a2bdeb1-2443-487e-b26c-afa0936064b6" />
 
 ---
 
@@ -82,11 +82,4 @@ Matriz cruzada de rendimientos que expone la inflación implícita del mercado (
 3.  **Robustez y Mantenibilidad:** Migrar de planillas de cálculo propensas a errores a un backend en Python aumentó la fiabilidad a nivel institucional.
 
 ---
-
-## 👨‍💻 Sobre el Autor
-
-Desarrollado combinando profundos conocimientos en **Finanzas Cuantitativas** e **Ingeniería de Datos y Software**. 
-
-*Si sos reclutador, hiring manager o analista y deseas coordinar una entrevista técnica para ver una demostración del código en vivo y la lógica matemática/financiera detrás de los algoritmos de pricing, no dudes en contactarme.*
-
 📫 **Contacto:** [Tu Email / Tu LinkedIn]
