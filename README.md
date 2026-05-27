@@ -45,9 +45,11 @@ El sistema está segmentado en módulos especializados que abarcan todo el espec
 El motor interpola las tasas del mercado en tiempo real, construye la curva cupón cero de pesos y proyecta retornos efectivos. 
 > <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/59fe1983-fc6a-4252-8264-4812a0f1a020" />
 
+
 ### 2. Instrumentos CER (Ajustados por Inflación)
 Modelado de flujos de caja reales proyectando los datos del REM (Relevamiento de Expectativas de Mercado), calculando TIRs reales y paridades con altísima precisión.
 > <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/5d5ce6f3-826e-434a-bd17-fd9aed672647" />
+
 
 ### 3. Curva Dollar Linked
 Análisis de instrumentos atados al tipo de cambio oficial, estructurando la devaluación esperada e integrando los retornos sintéticos.
@@ -55,23 +57,28 @@ Análisis de instrumentos atados al tipo de cambio oficial, estructurando la dev
 <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/6bb5fee9-ce61-4263-b3a9-17f255c6c40d" />
 <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/ec349bf3-8a55-47f5-b954-2d9277713454" />
 
+
 ### 4. Banda Alta de los Dólares
 Visualización y proyecciones de tipos de cambio financieros (CCL, MEP) y futuros de ROFEX, permitiendo identificar el costo de cobertura y las tasas implícitas.
 > <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/382c5f93-03a5-4e11-83e0-2ba39436a6de" />
+
 
 ### 5. Bonos Soberanos Hard Dollar
 Curva de rendimientos de los bonos Ley Local y Ley Extranjera (ALs / GDs). Análisis de paridades, sensibilidades y yields contra el riesgo país.
 > <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/42ad5b6f-0bc3-48c7-93f9-89472a26328d" />
 <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/a71dd1bf-2cc3-46b3-b4e4-6236d228447b" />
 
+
 ### 6. Obligaciones Negociables (Corporativos)
 Monitoreo del universo de deuda corporativa, evaluando el spread de crédito de las empresas argentinas contra la curva soberana.
 > <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/841b72ab-cff3-49ff-9cbb-0faa73501eb6" />
 <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/5b5b4f35-b580-4b08-9fd9-0f22dc22770e" />
 
+
 ### 7. Inflation Breakeven (Detección de Arbitraje)
 Matriz cruzada de rendimientos que expone la inflación implícita del mercado (Breakeven Inflation) al comparar la curva nominal (Pesos) vs la curva real (CER). Expone de manera visual y automatizada los desarbitrajes y oportunidades de entrada.
 > <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/0a2bdeb1-2443-487e-b26c-afa0936064b6" />
+
 
 ---
 
