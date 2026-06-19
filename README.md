@@ -43,41 +43,40 @@ El sistema está segmentado en módulos especializados que abarcan todo el espec
 
 ### 1. Tasas en Pesos (Lecaps / Boncap)
 El motor interpola las tasas del mercado en tiempo real, construye la curva cupón cero de pesos y proyecta retornos efectivos. 
-> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/59fe1983-fc6a-4252-8264-4812a0f1a020" />
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/55a25603-7177-4cf8-be67-55ab7d6f0e93" />
 
 
 ### 2. Instrumentos CER (Ajustados por Inflación)
 Modelado de flujos de caja reales proyectando los datos del REM (Relevamiento de Expectativas de Mercado), calculando TIRs reales y paridades con altísima precisión.
-> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/5d5ce6f3-826e-434a-bd17-fd9aed672647" />
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/f074b4e4-2a5f-4ecf-a237-a5d6de028a00" />
 
 
 ### 3. Curva Dollar Linked
 Análisis de instrumentos atados al tipo de cambio oficial, estructurando la devaluación esperada e integrando los retornos sintéticos.
-> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/304fd816-27a6-487a-b891-346c0ed6a3a3" />
-<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/6bb5fee9-ce61-4263-b3a9-17f255c6c40d" />
-<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/ec349bf3-8a55-47f5-b954-2d9277713454" />
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/d6d1978c-1c42-47c7-8f89-82014e5893da" />
+<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/5670022d-b65c-4c07-9d56-5bfe3bacb1c8" />
 
 
 ### 4. Banda Alta de los Dólares
 Visualización y proyecciones de tipos de cambio financieros (CCL, MEP) y futuros de ROFEX, permitiendo identificar el costo de cobertura y las tasas implícitas.
-> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/382c5f93-03a5-4e11-83e0-2ba39436a6de" />
-
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/337b226e-2e22-4da3-973d-4edf6f3345d1" />
+<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/4ad1d282-8743-4255-886d-77bc08540acd" />
 
 ### 5. Bonos Soberanos Hard Dollar
 Curva de rendimientos de los bonos Ley Local y Ley Extranjera (ALs / GDs). Análisis de paridades, sensibilidades y yields contra el riesgo país.
-> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/42ad5b6f-0bc3-48c7-93f9-89472a26328d" />
-<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/a71dd1bf-2cc3-46b3-b4e4-6236d228447b" />
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/5a1b4b1d-3e43-4806-aa81-f71cd33a3068" />
+<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/79bb5f55-aa6f-4938-bd77-ac8f5933ef31" />
 
 
 ### 6. Obligaciones Negociables (Corporativos)
 Monitoreo del universo de deuda corporativa, evaluando el spread de crédito de las empresas argentinas contra la curva soberana.
-> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/841b72ab-cff3-49ff-9cbb-0faa73501eb6" />
-<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/5b5b4f35-b580-4b08-9fd9-0f22dc22770e" />
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/0b67ebf8-f381-4cc3-8905-57443a158586" />
+<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/309e9d1a-2274-4555-b091-2b268f8a1924" />
 
 
 ### 7. Inflation Breakeven (Detección de Arbitraje)
 Matriz cruzada de rendimientos que expone la inflación implícita del mercado (Breakeven Inflation) al comparar la curva nominal (Pesos) vs la curva real (CER). Expone de manera visual y automatizada los desarbitrajes y oportunidades de entrada.
-> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/0a2bdeb1-2443-487e-b26c-afa0936064b6" />
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/cf82739e-0f80-487b-a20c-6ddca98f551a" />
 
 
 ---
