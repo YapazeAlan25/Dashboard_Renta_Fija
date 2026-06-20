@@ -43,40 +43,51 @@ El sistema está segmentado en módulos especializados que abarcan todo el espec
 
 ### 1. Tasas en Pesos (Lecaps / Boncap)
 El motor interpola las tasas del mercado en tiempo real, construye la curva cupón cero de pesos y proyecta retornos efectivos. 
-> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/55a25603-7177-4cf8-be67-55ab7d6f0e93" />
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/7bc0df05-1d4d-4aa9-bc0c-cbcd7ef619de" />
 
 
 ### 2. Instrumentos CER (Ajustados por Inflación)
 Modelado de flujos de caja reales proyectando los datos del REM (Relevamiento de Expectativas de Mercado), calculando TIRs reales y paridades con altísima precisión.
-> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/f074b4e4-2a5f-4ecf-a237-a5d6de028a00" />
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/01edd34e-c5a6-49da-9125-b3a52adec524" />
 
 
 ### 3. Curva Dollar Linked
 Análisis de instrumentos atados al tipo de cambio oficial, estructurando la devaluación esperada e integrando los retornos sintéticos.
-> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/d6d1978c-1c42-47c7-8f89-82014e5893da" />
-<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/5670022d-b65c-4c07-9d56-5bfe3bacb1c8" />
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/0efb0ddd-6e81-443e-98c1-08333dc0f6e3" />
+<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/518d5c1b-87e3-4c70-abf3-d3b4c5de2b4f" />
+<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/02e7f123-237d-4ff3-aef1-2928a71418fd" />
 
 
 ### 4. Banda Alta de los Dólares
 Visualización y proyecciones de tipos de cambio financieros (CCL, MEP) y futuros de ROFEX, permitiendo identificar el costo de cobertura y las tasas implícitas.
-> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/337b226e-2e22-4da3-973d-4edf6f3345d1" />
-<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/4ad1d282-8743-4255-886d-77bc08540acd" />
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/11d8b9a8-e689-4c23-bc24-9ae37c0f67da" />
+<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/6ace3cff-76a5-4905-9eed-1de42968de96" />
+
 
 ### 5. Bonos Soberanos Hard Dollar
 Curva de rendimientos de los bonos Ley Local y Ley Extranjera (ALs / GDs). Análisis de paridades, sensibilidades y yields contra el riesgo país.
-> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/5a1b4b1d-3e43-4806-aa81-f71cd33a3068" />
-<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/79bb5f55-aa6f-4938-bd77-ac8f5933ef31" />
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/6d58ce9b-41c0-4ee4-bd34-8f4478deef8b" />
+<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/7cf96352-e675-42c5-a1eb-cc47c04f5dda" />
 
 
 ### 6. Obligaciones Negociables (Corporativos)
 Monitoreo del universo de deuda corporativa, evaluando el spread de crédito de las empresas argentinas contra la curva soberana.
-> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/0b67ebf8-f381-4cc3-8905-57443a158586" />
-<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/309e9d1a-2274-4555-b091-2b268f8a1924" />
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/6367e4ba-36c9-46f3-a83e-b6ec9c49815f" />
+<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/1b945b37-68cf-45d7-8035-e1a1f5aabf4d" />
 
 
-### 7. Inflation Breakeven (Detección de Arbitraje)
+### 7. Cronograma de Flujos Hard Dollar
+<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/974f6a3b-8287-4224-bb02-4100598cfe9a" />
+
+
+### 8. Inflation Breakeven (Detección de Arbitraje)
 Matriz cruzada de rendimientos que expone la inflación implícita del mercado (Breakeven Inflation) al comparar la curva nominal (Pesos) vs la curva real (CER). Expone de manera visual y automatizada los desarbitrajes y oportunidades de entrada.
-> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/cf82739e-0f80-487b-a20c-6ddca98f551a" />
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/cb3c1556-d47d-4502-9e4a-bc6502217cb9" />
+<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/751b8919-8030-4c9d-a67d-c7a67ca16ecd" />
+
+
+### 9. Análisis de Margen de Seguridad & Sintético USD
+<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/4472f1ab-6250-404c-b44b-41a9558ff4b2" />
 
 
 ---
