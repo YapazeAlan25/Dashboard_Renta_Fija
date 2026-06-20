@@ -1,4 +1,4 @@
-# 📈 Alpha Fixed Income: Quantitative Pricing & Arbitrage Engine
+<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/62982715-f678-4cbd-ae6b-54fe8948e321" /># 📈 Alpha Fixed Income: Quantitative Pricing & Arbitrage Engine
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg?style=for-the-badge&logo=python&logoColor=white)]()
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B.svg?style=for-the-badge&logo=Streamlit&logoColor=white)]()
@@ -30,7 +30,7 @@ El proyecto fue construido bajo estándares de ingeniería de software para esca
 *   **Quantitative Models:** Pricers construidos desde cero con `NumPy` y `Pandas` para valuación de la curva entera de instrumentos argentinos.
 *   **Interfaz de Usuario (UI):** Dashboard interactivo de grado institucional desarrollado en **Streamlit**.
 *   **Infraestructura:** Todo el entorno está contenerizado utilizando **Docker** y orquestado con `docker-compose`.
-*   **Ultima Actualización:** Las imagenes adjuntadas aqui son correspondientes al cierre del 27/05/2026.
+*   **Ultima Actualización:** Las imagenes adjuntadas aqui son correspondientes al cierre del 19/06/2026.
 <div align="center">
   
 </div>
@@ -43,51 +43,53 @@ El sistema está segmentado en módulos especializados que abarcan todo el espec
 
 ### 1. Tasas en Pesos (Lecaps / Boncap)
 El motor interpola las tasas del mercado en tiempo real, construye la curva cupón cero de pesos y proyecta retornos efectivos. 
-> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/7bc0df05-1d4d-4aa9-bc0c-cbcd7ef619de" />
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/eee04cb6-c8ab-4a31-8a6e-b14fa00f2da5" />
 
 
 ### 2. Instrumentos CER (Ajustados por Inflación)
 Modelado de flujos de caja reales proyectando los datos del REM (Relevamiento de Expectativas de Mercado), calculando TIRs reales y paridades con altísima precisión.
-> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/01edd34e-c5a6-49da-9125-b3a52adec524" />
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/397705fc-ff33-47bc-b341-05a42feeb4bf" />
 
 
 ### 3. Curva Dollar Linked
 Análisis de instrumentos atados al tipo de cambio oficial, estructurando la devaluación esperada e integrando los retornos sintéticos.
-> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/0efb0ddd-6e81-443e-98c1-08333dc0f6e3" />
-<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/518d5c1b-87e3-4c70-abf3-d3b4c5de2b4f" />
-<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/02e7f123-237d-4ff3-aef1-2928a71418fd" />
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/b233063b-2977-4b41-8de5-6e181d99453b" />
+<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/226989c8-8608-4e93-ab18-41118c4ed1e8" />
+<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/8fdb75ef-98d9-4959-8112-8ed185f62074" />
 
 
 ### 4. Banda Alta de los Dólares
 Visualización y proyecciones de tipos de cambio financieros (CCL, MEP) y futuros de ROFEX, permitiendo identificar el costo de cobertura y las tasas implícitas.
-> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/11d8b9a8-e689-4c23-bc24-9ae37c0f67da" />
-<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/6ace3cff-76a5-4905-9eed-1de42968de96" />
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/d1dc1cf2-d0f0-42fc-8d7e-5fdc067199ed" />
+<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/3d5d22e6-e82a-482d-9bb2-1596554cfc9f" />
 
 
 ### 5. Bonos Soberanos Hard Dollar
 Curva de rendimientos de los bonos Ley Local y Ley Extranjera (ALs / GDs). Análisis de paridades, sensibilidades y yields contra el riesgo país.
-> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/6d58ce9b-41c0-4ee4-bd34-8f4478deef8b" />
-<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/7cf96352-e675-42c5-a1eb-cc47c04f5dda" />
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/f621de56-8e51-4c02-bfd2-60e9a9e98221" />
+<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/2d9c6711-01d3-4aca-9f32-b60e6ddec7c5" />
 
 
 ### 6. Obligaciones Negociables (Corporativos)
 Monitoreo del universo de deuda corporativa, evaluando el spread de crédito de las empresas argentinas contra la curva soberana.
-> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/6367e4ba-36c9-46f3-a83e-b6ec9c49815f" />
-<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/1b945b37-68cf-45d7-8035-e1a1f5aabf4d" />
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/5b3759f2-c223-4aca-87b2-5b57f040bc52" />
+<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/4df4212f-82db-4528-8368-9e4e9e7ad77e" />
 
 
 ### 7. Cronograma de Flujos Hard Dollar
-<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/974f6a3b-8287-4224-bb02-4100598cfe9a" />
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/77d9fa16-232e-44f6-b6eb-b9976827bd1d" />
 
 
 ### 8. Inflation Breakeven (Detección de Arbitraje)
 Matriz cruzada de rendimientos que expone la inflación implícita del mercado (Breakeven Inflation) al comparar la curva nominal (Pesos) vs la curva real (CER). Expone de manera visual y automatizada los desarbitrajes y oportunidades de entrada.
-> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/cb3c1556-d47d-4502-9e4a-bc6502217cb9" />
-<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/751b8919-8030-4c9d-a67d-c7a67ca16ecd" />
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/03a375ec-868c-4ce1-bbf4-4b0eeaeb1f93" />
+<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/81f3cee4-8e92-470a-afb0-45ee9ffa82a6" />
 
 
 ### 9. Análisis de Margen de Seguridad & Sintético USD
-<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/4472f1ab-6250-404c-b44b-41a9558ff4b2" />
+> <img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/192f3786-6f0c-41b2-b6f6-84b21ed5d94f" />
+<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/37efadc2-103d-4b77-b51b-2261d521055e" />
+
 
 
 ---
