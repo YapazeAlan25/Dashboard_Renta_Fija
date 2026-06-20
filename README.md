@@ -1,4 +1,4 @@
-<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/62982715-f678-4cbd-ae6b-54fe8948e321" /># 📈 Alpha Fixed Income: Quantitative Pricing & Arbitrage Engine
+# 📈 Alpha Fixed Income: Quantitative Pricing & Arbitrage Engine
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg?style=for-the-badge&logo=python&logoColor=white)]()
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B.svg?style=for-the-badge&logo=Streamlit&logoColor=white)]()
